@@ -47,6 +47,13 @@
     bottom: 5px;
 }
 
+#page-teacher-list main {
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+
+
 @media (min-width:700px) {
 
     #page-teacher-list {
@@ -64,4 +71,12 @@
     #search-teachers .input-block + .input-block {
         margin-top: 0;
     }
+
+    #page-teacher-list main {
+        padding: 3.2rem 0;
+        max-width: 740px;
+        margin: 0 auto;
+
+    }
+
 }

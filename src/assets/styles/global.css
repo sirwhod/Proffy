@@ -47,7 +47,7 @@ body,
 input,
 button,
 textarea{
-    color: var(--color-title-in-primary);
+    color: var(--color-text-base);
     font: 500 1.6rem "Poppins";
 }
 
