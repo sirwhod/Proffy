@@ -4,36 +4,48 @@ import './styles.css'
 
 import whatsappIco from '../../assets/images/icons/whatsapp.svg'
 
-function TeacherItem() {
+ export interface Teacher {
+    id: number;
+    avatar: string;
+    bio: string;
+    cost: number;
+    name: string;
+    subject: string;
+    user_id: number;
+    whatsapp: number;
+};
+
+interface TeacherItemProps {
+    teacher: Teacher; 
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({teacher}) =>  {
     return (
         <article className="teacher-item">
-                    <header>
-                        <img src="https://avatars2.githubusercontent.com/u/61847070?s=460&u=a33de9e71b6abbd50cde5332aa0d2686bcd0a458&v=4" alt="Rodrigo Brandão"/>
-                        <div>
-                            <strong>Rodrigo Brandão</strong>
-                            <span>Front-end</span>
-                        </div>
-                    </header>
+            <header>
+                <img src={teacher.avatar} alt={teacher.name}/>
+                <div>
+                    <strong>{teacher.name}</strong>
+                    <span>{teacher.subject}</span>
+                </div>
+            </header>
 
-                    <p>
-                        Entusiasta das melhores tecnologias de Programação Front-end.
-                        <br /> <br />
-                        Apaixonado por design e desenhos dono da marca de roupas lowRoad,
-                        Me identifico com tudo que é do meio artístico visual.
-                    </p>
+            <p>
+            {teacher.bio}
+            </p>
 
-                    <footer>
-                        <p>
-                            Preço/Hora 
-                            <strong>R$ 90,00</strong>
-                        </p>
-                        <button type="button">
-                            <img src={whatsappIco} alt="Whatsapp"/>
-                            Entrar em contato
-                        </button>
-                    </footer>
-                </article>
-    );
+            <footer>
+                <p>
+                    Preço/Hora 
+                    <strong>R$ {teacher.cost}</strong>
+                </p>
+                <button type="button">
+                    <img src={whatsappIco} alt="Whatsapp"/>
+                    Entrar em contato
+                </button>
+            </footer>
+        </article>
+);
 }
 
 export default TeacherItem;
