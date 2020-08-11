@@ -1,23 +1,27 @@
 :root {
 
-    --color-background:linear-gradient(90deg,#282a36, #1a1c24 );
-    --color-primary-lighter: #9871F5;
-    --color-primary-light: #916BEA;
-    --color-primary: #8257E5;
-    --color-primary-dark: #774DD6;
-    --color-primary-darker: #6842C2;
-    --color-secundary: #04D361;
-    --color-secundary-dark: #04BF58;
-    --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #D4C2FF;
+    --color-background:#282a36;
+    --color-primary-lighter: #50fa7b;
+    --color-primary-light: #282a36;
+    --color-primary: #282a36;
+    --color-primary-dark: #50fa7a;
+    --color-primary-darker: #50fa7b;
+    --color-secundary: #50fa7b;
+    --color-secundary-dark: #50fa7a98;
+    --color-title-in-primary: #282a36;
+    --color-text-in-primary: #282a36;
     --color-text-title: #32264D;
     --color-text-complement: #9C98A6;
     --color-text-base: #6A6180;
     --color-line-in-white: #E6E6F0;
     --color-input-background: #F8F8FC;
-    --color-button-text: #FFFFFF;
+    --color-button-text: #282a36;
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
+    --color-button-form: #1c1d24;
+    --color-button-form-dark: #1c1d24b9;
+    --color-button-form-text: #50fa7b;
+
 
     font-size: 60%;
 }

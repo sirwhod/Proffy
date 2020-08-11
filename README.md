@@ -1,44 +1,113 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Proffy
+> Projeto criado pela [Rocketseat](https://rocketseat.com.br) no evento Next Level Week #02.
 
-## Available Scripts
 
-In the project directory, you can run:
+Proffy é uma aplicação onde os professores se cadastram informando seu whatsapp, valor da hora/aula e a matéria a qual são especializados e os alunos buscam os professores pela matéria, dia da semana e horário disponivel, onde é possivel a utilização do mesmo back-end para o front-end web e mobile.
 
-### `yarn start`
+![](./src/assets/images/logo-header.svg)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Ferramentas Utilizadas
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Para poder vizualizar o projeto funcionando precisamos destas ferramentas:
 
-### `yarn test`
+- [x] Yarn
+- [x] NodeJS
+- [X] Expo
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***
+## Screen Shots das telas
 
-### `yarn build`
+### Versão Web - Desktop
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./public/images/capa-web-desktop.JPG)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Versão Web - Find-Proffy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](./public/images/Find-Proffy.JPG)
 
-### `yarn eject`
+### Versão Web - Give-Classes-1
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![](./public/images/Give-Classes-1.JPG)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Versão Web - Give-Classes-2
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![](./public/images/Give-Classes-2.JPG)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Versão Mobile - Desktop
 
-## Learn More
+![](./public/images/capa-web-mobile.JPG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Versão Mobile - Find-Proffy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![](./public/images/Find-Proffy-mobile.JPG)
+
+### Versão Mobile - Give-Classes-1
+
+![](./public/images/Give-Classes-1-mobile.JPG)
+
+### Versão Mobile - Give-Classes-2
+
+![](./public/images/Give-Classes-2-mobile.JPG)
+
+***
+## Vizualização
+O projeto é formado por 3 camadas, WEB, MOBILE e BACK-END, onde a parte front-end do projeto encontra-se neste repositório em branchs separadas e a parte do BACK-END encontra-se [neste](https://github.com/sirwhod/Proffy-Back-end) .
+
+Para poder vizualizar o projeto completo é necessário a junção dos dois repositórios, siga o passo a passo do README.md do repositório [Proffy BACK-END](https://github.com/sirwhod/Proffy-Back-end)
+após isso siga o passo a passo abaixo.
+
+### WEB
+Para poder vizualizar o projeto web, siga estes passos:
+
+- Faça o download do projeto
+- Dentro da pasta do projeto rode o seguinte comando:
+
+```sh
+    yarn
+```
+Este comando irá instalar as dependencias do projeto.
+
+- Logo após a instalação, rode o comando:
+
+```sh
+    yarn start
+```
+Este comando irá iniciar o projeto abrindo uma página web com o endereço [http://localhost:3000](http://localhost:3000) e assim você poderá vizualizar a aplicação web.
+***
+### MOBILE
+
+Para poder vizualizar o projeto mobile é necessário o app expo instalado em seu dispositivo Android ou IOS após isto siga estes passos:
+
+- Dentro da pasta do projeto rode o seguinte comando:
+
+```sh
+    expo
+```
+Este comando irá instalar as dependencias do projeto.
+
+- Logo após a instalação, rode o comando:
+
+```sh
+    expo start
+```
+Este comando irá iniciar o projeto abrindo uma página web com o endereço [http://localhost:190001](http://localhost:190001), após a abertura da página scaneie o QRCODE com a câmera do seu celular,
+isto fará com que o seu celular comece o download e a conversão do código para a linguagem nativa do seu celular.
+
+É importante saber que o seu celular e o computador onde o expo está sendo rodado precisam estar na mesma rede, caso contrário o aplicativo não irá iniciar.
+
+***
+## Meta
+
+Rodrigo Brandão –  rodrigo.brandao98@gmail.com
+
+[https://github.com/sirwhod/proffy](https://github.com/sirwhod/)
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+
+## Leia mais
+
+Você pode ler mais em [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+Para ler sobre o React, leia mais em [React documentation](https://reactjs.org/).

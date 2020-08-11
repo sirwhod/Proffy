@@ -11,6 +11,9 @@
 }
 
 .select-block select {
+    -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+    -moz-appearance: none; /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
     color: black;
     width: 100%;
     height: 5.6rem;
@@ -21,6 +24,12 @@
     outline: 0;
     padding: 0 1.6rem;
     font: 1.6rem 'Archivo';
+},
+
+.select-block select:active {
+    width: auto;
+    height: 2.4rem;
+    border-left: 1rem solid ;
 }
 
 .select-block:focus-within::after {
