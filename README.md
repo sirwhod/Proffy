@@ -43,11 +43,11 @@ Para poder vizualizar o projeto funcionando precisamos destas ferramentas:
 
 ### Versão Mobile - Give-Classes-1
 
-![](./public/images/Give-Classes-1-mobile.JPG)
+![](./public/images/give-classes-1-mobile.JPG)
 
 ### Versão Mobile - Give-Classes-2
 
-![](./public/images/Give-Classes-2-mobile.JPG)
+![](./public/images/give-classes-2-mobile.JPG)
 
 ***
 ## Vizualização
