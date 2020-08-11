@@ -23,15 +23,15 @@ Para poder vizualizar o projeto funcionando precisamos destas ferramentas:
 
 ### Versão Web - Find-Proffy
 
-![](./public/images/Find-Proffy.JPG)
+![](./public/images/find-proffy.JPG)
 
 ### Versão Web - Give-Classes-1
 
-![](./public/images/Give-Classes-1.JPG)
+![](./public/images/give-classes-1.JPG)
 
 ### Versão Web - Give-Classes-2
 
-![](./public/images/Give-Classes-2.JPG)
+![](./public/images/give-classes-2.JPG)
 
 ### Versão Mobile - Desktop
 
@@ -39,7 +39,7 @@ Para poder vizualizar o projeto funcionando precisamos destas ferramentas:
 
 ### Versão Mobile - Find-Proffy
 
-![](./public/images/Find-Proffy-mobile.JPG)
+![](./public/images/find-proffy-mobile.JPG)
 
 ### Versão Mobile - Give-Classes-1
 
